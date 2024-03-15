@@ -9,7 +9,7 @@ class SGGS{
 		//System.out.println(sggs1==sggs2);
 		//System.out.println(sggs1.getClass());
 		//System.out.println(sggs1.getName());
-		System.out.println("Address of sggs1-->"+sggs1.myTostring());
+		System.out.println("Address of sggs1-->"+sggs1);
 		System.out.println("Address of sggs2-->"+sggs2.myTostring());
 	}
 	public String myTostring(){
@@ -18,7 +18,7 @@ class SGGS{
 		//return Integer.toHexString(hashCode());
 		return "myToString"+getClass().getName()+"@"+Integer.toHexString(hashCode());
 	}
-	/*public String toString(){
+	public String toString(){
 		return "Addressofsgg1";
-	}*/
+	}
 }

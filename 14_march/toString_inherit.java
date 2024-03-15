@@ -13,7 +13,7 @@ class TechUni extends college{
 	}
 	public static void main(String args[]){
 		System.out.println("Inside main");
-		//SGGS sggs1=new SGGS();
+		SGGS sggs1=new SGGS();
 		//System.out.println("Default to String()return :"+sggs1);
 	}
 }

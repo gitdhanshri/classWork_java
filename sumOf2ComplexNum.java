@@ -19,7 +19,6 @@ class sumOf2complex{
 	public static void main(String args[]){
 		sumOf2complex c1 =new sumOf2complex(4,6);
 		sumOf2complex c2 =new sumOf2complex(2,-3);
-		System.out.println("Addition of two Complex Number-->"+c1.sum(c1,c2));
-		
+		System.out.println("Addition of two Complex Number-->"+c1.sum(c1,c2));	
 	}
 }
